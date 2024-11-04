@@ -3,7 +3,7 @@
 adb shell shizuku ps
 
 # Install APK using adb (via Shizuku)
-APK_PATH="/storage/emulated/0/Download/your_app.apk"
+APK_PATH="/storage/emulated/0/Download/shizuku.apk"
 
 if [[ -f "$APK_PATH" ]]; then
     echo "Installing $APK_PATH..."
